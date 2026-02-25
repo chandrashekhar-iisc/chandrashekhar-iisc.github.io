@@ -2,22 +2,27 @@ body {
     font-family: "Times New Roman", serif;
     background-color: white;
     color: black;
-    margin: 40px;
+    margin: 60px auto;
+    max-width: 900px;
     line-height: 1.6;
 }
 
 h1 {
-    font-size: 36px;
-    margin-bottom: 5px;
+    font-size: 40px;
+    margin-bottom: 10px;
 }
 
 h2 {
     font-size: 22px;
-    margin-top: 30px;
-    border-bottom: 1px solid #ccc;
+    margin-top: 40px;
+    border-bottom: 1px solid #999;
     padding-bottom: 5px;
 }
 
-p {
+p, li {
     font-size: 18px;
+}
+
+ul {
+    padding-left: 20px;
 }
