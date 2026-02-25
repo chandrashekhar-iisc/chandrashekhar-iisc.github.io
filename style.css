@@ -1,62 +1,67 @@
 body {
-  margin: 0;
-  font-family: "Times New Roman", serif;
-  background: #ffffff;
-  color: #000000;
-  line-height: 1.45;
-}
-
-.container {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 20px 30px;
+    font-family: "Times New Roman", serif;
+    margin: 0;
+    background-color: #f8f8f8;
+    line-height: 1.6;
 }
 
 header {
-  text-align: center;
-  padding: 24px 0 10px;
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 nav {
-  border-top: 1px solid #999;
-  border-bottom: 1px solid #999;
-  padding: 10px 0;
-  margin-bottom: 20px;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: 0;
+    text-align: center;
+    padding: 10px;
 }
 
 nav a {
-  color: #008000; /* Green links like the sample */
-  text-decoration: none;
-  font-weight: bold;
+    margin: 0 20px;
+    text-decoration: none;
+    color: #0A5;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: blue;
 }
 
 .section-title {
-  background: #dcdcf2; /* The light purple bar from image_08dc5e.jpg */
-  padding: 8px 10px;
-  margin: 20px 0 10px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  border-bottom: 1px solid #bbb;
+    background-color: #dcd6f7;
+    padding: 8px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.home-columns {
-  display: flex;
-  gap: 30px;
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    flex-wrap: wrap;
 }
 
-.left-column { flex: 2; }
-.right-column { flex: 1; }
+.left {
+    width: 60%;
+}
 
-.profile-photo {
-  width: 100%;
-  max-width: 250px;
-  border: 1px solid #ccc;
+.right {
+    width: 35%;
+    text-align: center;
+}
+
+.right img {
+    width: 220px;
+    border-radius: 5px;
+}
+
+.cv-links a {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
+
+.content {
+    padding: 30px;
 }
