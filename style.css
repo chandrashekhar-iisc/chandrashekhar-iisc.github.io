@@ -17,17 +17,6 @@ header {
   padding: 24px 0 10px;
 }
 
-h1 {
-  margin: 0;
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-.subtitle {
-  margin-top: 8px;
-  font-size: 1.1rem;
-}
-
 nav {
   border-top: 1px solid #999;
   border-bottom: 1px solid #999;
@@ -36,92 +25,38 @@ nav {
 }
 
 nav ul {
-  margin: 0;
-  padding: 0;
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
-  gap: 18px;
   justify-content: center;
+  gap: 20px;
+  padding: 0;
 }
 
 nav a {
-  color: #008000;
+  color: #008000; /* Green links like the sample */
   text-decoration: none;
-  font-size: 1.02rem;
-}
-
-nav a:hover,
-nav a:focus {
-  color: #006400;
-  text-decoration: underline;
+  font-weight: bold;
 }
 
 .section-title {
-  background: #dcdcf2;
+  background: #dcdcf2; /* The light purple bar from image_08dc5e.jpg */
   padding: 8px 10px;
-  margin: 26px 0 14px;
-  font-size: 1.25rem;
+  margin: 20px 0 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-bottom: 1px solid #bbb;
 }
 
 .home-columns {
   display: flex;
-  gap: 28px;
-  align-items: flex-start;
+  gap: 30px;
 }
 
-.left-column {
-  flex: 2;
-}
-
-.right-column {
-  flex: 1;
-}
+.left-column { flex: 2; }
+.right-column { flex: 1; }
 
 .profile-photo {
   width: 100%;
-  max-width: 260px;
-  height: auto;
-  border: 1px solid #777;
-}
-
-h2 {
-  margin: 0;
-  font-size: 1.45rem;
-}
-
-h3 {
-  margin: 0 0 10px;
-  font-size: 1.1rem;
-}
-
-p {
-  margin: 0 0 12px;
-}
-
-ul {
-  margin: 0 0 12px 22px;
-  padding: 0;
-}
-
-li {
-  margin-bottom: 7px;
-}
-
-.content-block {
-  margin-bottom: 20px;
-}
-
-@media (max-width: 760px) {
-  .home-columns {
-    flex-direction: column;
-  }
-
-  .right-column {
-    width: 100%;
-  }
-
-  .profile-photo {
-    max-width: 220px;
-  }
+  max-width: 250px;
+  border: 1px solid #ccc;
 }
