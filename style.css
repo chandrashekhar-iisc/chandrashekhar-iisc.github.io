@@ -73,7 +73,7 @@ nav a:hover {
     width: 60%;
 .section-strip {
   margin: 0 14px;
-  background-color: #c4c4e2;
+  background-color: #b9b9df;
   font-size: 22px;
   font-weight: bold;
   padding: 8px 12px;
@@ -114,9 +114,22 @@ nav a:hover {
   font-weight: bold;
 }
 
+.research-only {
+  font-weight: normal;
+}
+
+.inner-strip {
+  margin: 8px 0 0 0;
+}
+
+.inner-block {
+  padding: 10px 0 4px 0;
+}
+
 .right-column {
   flex: 0 0 34%;
   text-align: center;
+  padding-top: 2px;
 }
 
 .photo-placeholder {
